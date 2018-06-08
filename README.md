@@ -12,7 +12,7 @@ A simple, single page with a most of the HTML5 elements visually represented for
 The organization of this page, the elements listed, and their definitions were inspired by or directly taken from MDN's HTML elements <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">reference page</a>.
 
 ## Elements
-#### Content Sectioning
+### Content Sectioning
 - address
 - article
 - aside
@@ -22,7 +22,7 @@ The organization of this page, the elements listed, and their definitions were i
 - nav
 - section
 
-#### Text Content
+### Text Content
 - blockquote
 - dd
 - div
@@ -37,7 +37,7 @@ The organization of this page, the elements listed, and their definitions were i
 - pre
 - ul
 
-#### Inline Text Semantics
+### Inline Text Semantics
 - a
 - abbr
 - b
@@ -65,18 +65,18 @@ The organization of this page, the elements listed, and their definitions were i
 - time
 - var
 
-#### Image and Multimedia
+### Image and Multimedia
 - img
 - video
 
-#### Embedded Content
+### Embedded Content
 - picture
 
-#### Demarcating Edits
+### Demarcating Edits
 - del
 - ins
 
-#### Table Content
+### Table Content
 - caption
 - col
 - colgroup
@@ -88,7 +88,7 @@ The organization of this page, the elements listed, and their definitions were i
 - thead
 - tr
 
-#### Forms
+### Forms
 - button
 - datalist
 - fieldset
