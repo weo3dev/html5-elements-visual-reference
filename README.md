@@ -11,6 +11,9 @@ A simple, single page with a most of the HTML5 elements visually represented for
 
 The organization of this page, the elements listed, and their definitions were inspired by or directly taken from MDN's HTML elements <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">reference page</a>.
 
+## Github.io page
+Take a look at the page with styling <strong>only</strong> for the presentation of the information: [view](https://metavurt.github.io/html5-elements-visual-reference/)
+
 ## Elements
 ### Content Sectioning
 - address
