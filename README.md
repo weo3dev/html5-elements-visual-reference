@@ -9,7 +9,7 @@
 ## Introduction
 A simple, single page with a most of the HTML5 elements visually represented for CSS styling and display reference. This is a curated list, meaning, there are some HTML5 elements that exist that are either poorly supported due to them still being experimental, or significantly deprecated, or just plain bad form. For instance, the iframe element is not listed because it is evil, and should be banished to the lower realms, forever.
 
-The organization of this page, the elements listed, and their definitions of use reflects MDN's HTML elements reference, found here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+The organization of this page, the elements listed, and their definitions were inspired by or directly taken from MDN's HTML elements <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">reference page</a>.
 
 ## Elements
 #### Content Sectioning

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HTML Elements - Visual Reference</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -15,11 +16,10 @@
       to create a broad outline for your page content, including header and footer navigation, and heading elements to identify
       sections of content.</p>
 
-    <section>
-      <code>&lt;address&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;address&gt;</code>
       <address>
-        Content line with a link:
-        <a href="http://www.somedomain.com/">www.somedomain.com</a>.
+        Content line with a link: <a href="http://www.somedomain.com/">www.somedomain.com</a>.
         <br> Line of content separated by &lt;br&gt; tags
         <br> Line of content separated by &lt;br&gt; tags
         <br> Line of content separated by &lt;br&gt; tags
@@ -28,20 +28,20 @@
       </address>
     </section>
 
-    <section>
-      <code>&lt;article&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;article&gt;</code>
       <article>
         <header>
-          <h2>h2 title inside header tag</h2>
+          <h2>h2 level section header</h2>
         </header>
-        <section>
-          <p>Text inside &lt;p&gt; within &lt;section&gt; tag</p>
+        <section class="weo3-element">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat sed voluptatem dolores, inventore aspernatur dolore enim similique rem consequuntur quaerat ut distinctio ipsam, porro odit nemo, in veritatis aliquid necessitatibus.</p>
         </section>
       </article>
     </section>
 
-    <section>
-      <code>&lt;aside&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;aside&gt;</code>
       <article>
         <p>Main line of thought comment, discussion, prose, poetry, thesis, etc.</p>
         <aside>
@@ -51,19 +51,47 @@
       </article>
     </section>
 
-    <section>
-      <code>&lt;footer&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;footer&gt;</code>
       <footer>
         Some copyright info or perhaps some author info for an article, links to privacy policy, usage, etc.
       </footer>
     </section>
 
-    <section>
-      <code>&lt;header&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;header&gt;</code>
       <header>
-        <h1>Main Page Title</h1>
+        <h1>h1 page title</h1>
         <p>navigation links often exist inside a header</p>
       </header>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</code>
+      <h1>H1 level section heading</h1>
+      <h2>H2 level section heading</h2>
+      <h3>H3 level section heading</h3>
+      <h4>H4 level section heading</h4>
+      <h5>H5 level section heading</h5>
+      <h6>H6 level section heading</h6>
+    </section>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;nav&gt;</code>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">work</a></li>
+          <li><a href="#">experience</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;section&gt;</code>
+      <section>
+        <h2>example heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem qui repellendus a sed similique odio porro aperiam, aliquid dignissimos amet quas, neque modi voluptas nulla dolorum earum ipsa odit laboriosam?</p>
+      </section>
     </section>
   </div>
 
@@ -73,60 +101,204 @@
       closing &lt;/body&gt; tags. Important for accessibility and SEO, these elements identify the purpose or structure of
       that content.</p>
 
-    <section>
-      <code>&lt;blockquote&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;blockquote&gt;</code>
+      <blockquote>The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.</blockquote>
     </section>
 
-    <section>
-      <code>&lt;dd&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;dd&gt;</code>
+      <dl>
+        <dt>Firefox</dt>
+        <dd>
+          A free, open source, cross-platform,
+          graphical web browser developed by the
+          Mozilla Corporation and hundreds of
+          volunteers.
+        </dd>
+        <dd>
+          The Red Panda also known as the Lesser
+          Panda, Wah, Bear Cat or Firefox, is a
+          mostly herbivorous mammal, slightly larger
+          than a domestic cat (60 cm long).
+        </dd>
+        <!-- Other terms and descriptions -->
+      </dl>
     </section>
 
-    <section>
-      <code>&lt;dir&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;div&gt;</code>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste similique minus pariatur natus! Minima aliquam iusto, ea suscipit ut repellat animi hic! Quae id expedita, obcaecati accusamus iste aut.</p>
+      </div>
     </section>
 
-    <section>
-      <code>&lt;div&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;dl&gt;</code>
+      <dl>
+        <dt>Firefox</dt>
+        <dd>
+          A free, open source, cross-platform,
+          graphical web browser developed by the
+          Mozilla Corporation and hundreds of
+          volunteers.
+        </dd>
+        <dd>
+          The Red Panda also known as the Lesser
+          Panda, Wah, Bear Cat or Firefox, is a
+          mostly herbivorous mammal, slightly larger
+          than a domestic cat (60 cm long).
+        </dd>
+        <!-- Other terms and descriptions -->
+      </dl>
     </section>
 
-    <section>
-      <code>&lt;dl&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;dt&gt;</code>
+      <dl>
+        <dt>Firefox</dt>
+        <dd>
+          A free, open source, cross-platform,
+          graphical web browser developed by the
+          Mozilla Corporation and hundreds of
+          volunteers.
+        </dd>
+        <dd>
+          The Red Panda also known as the Lesser
+          Panda, Wah, Bear Cat or Firefox, is a
+          mostly herbivorous mammal, slightly larger
+          than a domestic cat (60 cm long).
+        </dd>
+        <!-- Other terms and descriptions -->
+      </dl>
     </section>
 
-    <section>
-      <code>&lt;dt&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;figcaption&gt;</code>
+      <figure>
+        <img
+        src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png"
+        alt="An awesome picture">
+      </figure>
+      <p></p>
+      <!-- Figure with figcaption -->
+      <figure>
+        <img
+        src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png"
+        alt="An awesome picture">
+        <figcaption>MDN Logo</figcaption>
+      </figure>
     </section>
 
-    <section>
-      <code>&lt;figcaption&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;figure&gt;</code>
+      <figure>
+        <img
+        src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png"
+        alt="An awesome picture">
+      </figure>
+      <p></p>
+      <!-- Figure with figcaption -->
+      <figure>
+        <img
+        src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png"
+        alt="An awesome picture">
+        <figcaption>MDN Logo</figcaption>
+      </figure>
     </section>
 
-    <section>
-      <code>&lt;figure&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;hr&gt;</code>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio laudantium ex facere nihil at perspiciatis, placeat omnis et aut numquam rerum unde accusamus dolorum hic repellat enim inventore. Dolore, ut?</p>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque similique sapiente vitae quam temporibus assumenda magni sint. Ea ullam delectus hic praesentium odio, sint aliquid harum iure corporis recusandae eveniet.</p>
     </section>
 
-    <section>
-      <code>&lt;hr&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;li&gt;</code>
+      <ol>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ol>
+      <ol type="I">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ol>
+      <ul>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ul>
     </section>
 
-    <section>
-      <code>&lt;li&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;ol&gt;</code>
+      <ol>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ol>
     </section>
 
-    <section>
-      <code>&lt;main&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;p&gt;</code>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eaque placeat rem obcaecati perspiciatis sed quasi aliquid non? Eum, doloremque in dolorem reiciendis perferendis earum at ea? Ullam, vero hic.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem. Veniam dolor facere obcaecati commodi voluptatum quae provident tenetur, architecto cum eum, ipsum totam accusantium placeat perspiciatis saepe. In, inventore!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci aperiam atque deleniti quidem molestias nostrum nulla nihil maxime, officia, repudiandae quod praesentium quisquam! Autem voluptatibus quidem at laudantium nobis corrupti?</p>
     </section>
 
-    <section>
-      <code>&lt;ol&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;pre&gt;</code>
+      <pre>After a moment, a black loafer steps down from the cab of the garbage truck.
+Agent Smith inspect the wreckage. There is no body. Trinity is gone.
+
+His jaw sets as he grinds his molars in frustration.
+Agent Jones and Brown walk up behind him.
+
+                                AGENT JONES
+        She got out.
+
+
+                                AGENT SMITH
+        It doesn't matter.
+
+
+                                AGENT BROWN
+        The informant is real.
+
+
+Agent Smith almost smiles.
+                                AGENT SMITH
+        Yes.
+
+
+                                AGENT JONES
+        We have the name of their next target.
+
+
+                                AGENT BROWN
+        The name is Neo.
+        The handset of the pay phone lays on the ground, separated
+        in the crash like a severed limb.
+
+
+                                AGENT SMITH
+        We'll need a search running.
+
+
+                                AGENT JONES
+        It's already begun.</pre>
     </section>
 
-    <section>
-      <code>&lt;pre&gt;</code>
-    </section>
-
-    <section>
-      <code>&lt;ul&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;ul&gt;</code>
+      <ul>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ul>
     </section>
   </div>
 
@@ -135,182 +307,260 @@
     <h2>Inline text semantics</h2>
     <p>Use the HTML inline text semantic to define the meaning, structure, or style of a word, line, or any arbitrary piece
       of text.</p>
-    <section>
-      <code>&lt;a&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;a&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;abbr&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;abbr&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;b&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;b&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;bdo&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;bdo&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;br&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;br&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;cite&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;cite&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;code&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;code&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;data&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;data&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;dfn&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;dfn&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;em&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;em&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;i&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;i&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;kbd&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;kbd&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;mark&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;mark&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;q&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;q&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;rp&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;rp&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;rt&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;rt&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;ruby&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;ruby&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;s&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;s&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;samp&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;samp&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;small&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;small&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;span&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;span&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;strong&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;strong&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;sub&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;sub&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;sup&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;sup&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;time&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;time&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;var&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;var&gt;</code>
+    </section>
+
+  </div>
+
+
+
+
+
+
+
+  <div class="element-group">
+    <h2>Image and multimedia</h2>
+    <p>HTML supports various multimedia resources such as images, audio, and video.</p>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;img&gt;</code>
+    </section>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;video&gt;</code>
+    </section>
+  </div>
+
+
+  <div class="element-group">
+    <h2>Embedded content</h2>
+    <p>In addition to regular multimedia content, HTML can include a variety of other content, even if it's not always easy to interact with.</p>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;picture&gt;</code>
+    </section>
+  </div>
+
+  <div class="element-group">
+    <h2>Demarcating edits</h2>
+    <p>These elements let you provide indications that specific parts of the text have been altered.</p>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;del&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;ins&gt;</code>
     </section>
 
   </div>
 
   <div class="element-group">
-    <h2>asdf</h2>
-    <p>asdf</p>
-    <section>
-      <code>&lt;asdfasdf&gt;</code>
+    <h2>Table content</h2>
+    <p>The elements here are used to create and handle tabular data.</p>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;caption&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;col&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;colgroup&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;table&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;tbody&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;td&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;tfoot&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;th&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;thead&gt;</code>
+    </section>
+
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;tr&gt;</code>
     </section>
   </div>
-
 
   <div class="element-group">
     <h2>Forms</h2>
     <p>HTML provides a number of elements which can be used together to create forms which the user can fill out and submit
       to the Web site or application. There's a great deal of further information about this available in the HTML forms
       guide.</p>
-    <section>
-      <code>&lt;button&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;button&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;datalist&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;datalist&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;fieldset&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;fieldset&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;form&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;form&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;input&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;input&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;label&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;label&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;legend&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;legend&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;meter&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;meter&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;optgroup&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;optgroup&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;option&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;option&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;output&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;output&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;progress&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;progress&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;select&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;select&gt;</code>
     </section>
 
-    <section>
-      <code>&lt;textarea&gt;</code>
+    <section class="weo3-element">
+      <code class="weo3-element-name">&lt;textarea&gt;</code>
     </section>
   </div>
+
+
+
+
 
 </body>
 </html>

@@ -1,0 +1,18 @@
+.element-group {
+  margin: 1em;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+}
+
+.weo3-element {
+  background: #efefef;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.weo3-element-name {
+  font-weight: 700;
+}
+
+
