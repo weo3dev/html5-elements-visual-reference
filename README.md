@@ -13,35 +13,97 @@ The organization of this page, the elements listed, and their definitions were i
 
 ## Elements
 #### Content Sectioning
-- a
-- abbr
+- address
 - article
-- b
-- blockquote
-- code
-- everything
-- form
-- goodtimes
+- aside
+- footer
 - header
-- i
-- jumphere
-- karma
+- h1, h2, h3, h4, h5, h6
+- nav
+- section
+
+#### Text Content
+- blockquote
+- dd
+- div
+- dl
+- dt
+- figcaption
+- figure
+- hr
 - li
-- main
-- numeral
 - ol
 - p
 - pre
-- q
-- ruby
-- strike
-- table
 - ul
+
+#### Inline Text Semantics
+- a
+- abbr
+- b
+- bdo
+- br
+- cite
+- code
+- data
+- dfn
+- em
+- i
+- kbd
+- mark
+- q
+- rp
+- rt
+- ruby
+- s
+- samp
+- small
+- span
+- strong
+- sub
+- sup
+- time
 - var
-- wingnut
-- xhp
-- yams
-- zeta
+
+#### Image and Multimedia
+- img
+- video
+
+#### Embedded Content
+- picture
+
+#### Demarcating Edits
+- del
+- ins
+
+#### Table Content
+- caption
+- col
+- colgroup
+- table
+- tbody
+- td
+- tfoot
+- th
+- thead
+- tr
+
+#### Forms
+- button
+- datalist
+- fieldset
+- form
+- input
+- label
+- legend
+- meter
+- optgroup
+- option
+- output
+- progress
+- select
+- textarea
+
 
 
 
